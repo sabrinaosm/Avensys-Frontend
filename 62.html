@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>62 (Flex) - Sabrina Osman</title>
+    <style>
+        .container {
+            display: flex;
+            height: 200px;
+            width: 350px;
+            border: palevioletred 4px solid;
+            flex-direction: row;
+        }
+
+        .item {
+            color: white;
+            font-size: 40px;
+            width: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1" style="order: 1; background-color: lightpink;">1</div>
+        <div class="item item2" style="order: 2; background-color: lightblue;">2</div>
+        <div class="item item3" style="order: 4; background-color: lavender;">3</div>
+        <div class="item item4" style="order: 5; background-color: lightgreen;">4</div>
+        <div class="item item5" style="order: 6; background-color: lightsalmon;">5</div>
+        <div class="item item6" style="order: 3; background-color: lightseagreen;">6</div>
+    </div>
+</body>
+</html>

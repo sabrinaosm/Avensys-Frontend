@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>68 (Bootstrap Forms) - Sabrina Osman</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        form {
+            width: 500px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label for="firstName">Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="emailID">Email Address</label>
+            <input type="email" id="emailID" class="form-control" placeholder="Enter your email ID">
+        </div>
+        <div class="form-group">
+            <label for="contactID">Contact Number</label>
+            <input type="text" id="contactID" class="form-control" placeholder="Enter your contact number">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" id="rememberID" class="form-check-input">
+            <label for="rememberID">Remember Me</label>
+        </div>
+        <button class="btn btn-light">Submit</button>
+    </form>
+
+</body>
+</html>

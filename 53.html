@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>53 (Grid) - Sabrina Osman</title>
+    <style>
+        .container {
+            background-color: lightgrey;
+            padding: 10px;
+            display: grid;
+            gap: 10px;
+        }
+
+        .item {
+            padding: 10px;
+            text-align: center;
+            border: 2px dashed black;
+        }
+
+        .item1 {
+            grid-column-start: 1;
+            grid-column-end: 8;
+        }
+
+        .item2 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 20;
+        }
+
+        .item3 {
+            grid-column-start: 3;
+            grid-column-end: 6;
+            grid-row-start: 2;
+            grid-row-end: 18;
+        }
+
+        .item4 {
+            grid-column-start: 6;
+            grid-column-end: 8;
+            grid-row-start: 2;
+            grid-row-end: 18;
+        }
+
+        .item5 {
+            grid-column-start: 3;
+            grid-column-end: 8;
+            grid-row-start: 18;
+            grid-row-end: 20;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1" style="background-color: lightpink;">Header</div>
+        <div class="item item2" style="background-color: lavender;">Left</div>
+        <div class="item item3" style="background-color: lightblue;">Main</div>
+        <div class="item item4" style="background-color: lightgreen;">Right</div>
+        <div class="item item5" style="background-color: lightsalmon;">Footer</div>
+    </div>
+</body>
+</html>
